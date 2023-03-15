@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vegetables</title>
+</head>
+<body>
+{% if vege_name %}
+<h3>{{vegetables}}</h3>
+{% else: %}
+<h3> Details not found </h3>
+{% endif %}
+
+</body>
+</html>
+
+```
+for rendering the variable from html by jinja we have to use double curly braces outside the variable name
+                - {{foo}} # example :- `foo` is a variable name
+```
